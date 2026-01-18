@@ -1,0 +1,57 @@
+:root {
+  --wet-sand: #EFDD8D;
+  --green-plant: #65743A;
+  --fir-tree: #394F49;
+  --dark-spruce: #330F0A;
+  --green-apple: #F4FDAF;
+}
+
+* {
+  font-family: 'Hedvig Letters Serif';
+}
+
+body {
+  background: var(--fir-tree) !important;
+}
+
+p {
+  color: var(--green-apple);
+}
+
+h1,
+button {
+  font-family: Unbounded !important;
+  color: var(--green-apple) !important;
+}
+
+input {
+  background: var(--green-apple) !important;
+  color: var(--dark-spruce) !important;
+}
+
+button {
+  background-color: var(--green-plant) !important;
+}
+
+h3,
+h4,
+h5 {
+  font-family: Figtree;
+  color: var(--green-apple) !important;
+}
+
+.event-card {
+  background: var(--green-apple) !important;
+}
+
+.event-card p,
+.event-card h5 {
+  color: var(--fir-tree) !important;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: var(--fir-tree) !important;
+  color: var(--green-apple);
+}
