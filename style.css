@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --wet-sand: #EFDD8D;
+  --green-plant: #65743A;
+  --fir-tree: #3f5952;
+  --dark-spruce: #330F0A;
+  --green-apple: #F4FDAF;
+}
+
+* {
+  font-family: 'Hedvig Letters Serif';
+}
+
+body {
+  background: var(--fir-tree) !important;
+}
+
+p {
+  color: var(--green-apple);
+}
+
+h1,
+.navbar-brand {
+  font-family: Unbounded !important;
+  color: var(--green-apple) !important;
+}
+
+h2 {
+  font-family: "Figtree";
+  color: var(--green-apple);
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  color: var(--green-apple) !important;
+  font-family: "Figtree";
+  transition: 0.2s ease-in-out !important;
+  border-radius: 6px;
+  padding: 0.5rem !important;
+}
+
+.nav-link:hover {
+  color: var(--fir-tree) !important;
+  background: var(--green-apple);
+  border-radius: 6px;
+  rotate: 1deg;
+}
+
+.active {
+  font-weight: bolder !important;
+  text-decoration: underline !important;
+}
+
+.dropdown-menu {
+  background-color: var(--fir-tree) !important;
+  border: 2px solid var(--green-apple) !important;
+}
+
+.dropdown-item {
+  color: var(--green-apple) !important;
+  font-family: "Figtree" !important;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.dropdown-item:hover {
+  color: var(--fir-tree) !important;
+  background-color: var(--green-apple) !important;
+  font-family: "Figtree" !important;
+  font-size: 100%;
+  rotate: 1deg;
+  border-radius: 5px;
+}
+
+input:not(input[type="checkbox"]),
+textarea {
+  background: var(--green-apple) !important;
+  color: var(--dark-spruce) !important;
+  border: var(--green-apple) 2px solid !important;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  margin: 0.25rem;
+}
+
+button {
+  background-color: var(--green-apple) !important;
+  font-family: Unbounded !important;
+  color: var(--fir-tree) !important;
+  border: var(--green-apple) 2px solid !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+button:hover {
+  background-color: var(--fir-tree) !important;
+  color: var(--green-apple) !important;
+  rotate: 3deg;
+}
+
+h3,
+h4,
+h5 {
+  font-family: Figtree;
+  color: var(--green-apple) !important;
+}
+
+.event-card {
+  background: none;
+  border: 5px solid var(--green-apple);
+  border-radius: 10px !important;
+  box-shadow: inset var(--fir-tree) 20px 20px 50px 5px;
+}
+
+.event-card {
+  background: none;
+  border: 5px solid var(--green-apple);
+  border-radius: 10px !important;
+  margin-top: 1rem;
+  height: auto;
+  transition: 0.4s ease-in-out;
+}
+
+.event-card:hover {
+  rotate: 1deg;
+}
+
+.event-card p,
+.event-card h5 {
+  color: var(--green-apple) !important;
+}
+
+.event-card h5 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1rem;
+}
+
+.event-card img {
+  border-radius: 10px;
+  border: 2px solid var(--green-apple);
+  margin-right: auto;
+  width: 90%;
+  margin-left: auto;
+}
+
+.card-text {
+  font-family: "Hedvig Letters Serif" !important;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background: var(--fir-tree) url("leafs.jpg") !important;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: var(--green-apple);
+}
+
+.form-text {
+  color: var(--green-apple);
+}
+
+.contact-label {
+  color: var(--green-apple);
+}
+
+a {
+  color: var(--wet-sand);
+  transition: font-size 0.2s ease-in-out;
+}
+
+a:hover {
+  font-size: 110%;
+  color: var(--green-apple);
+}
+
+.alternate h5,
+.alternate p {
+  color: #394F49 !important;
+}
+
+.alternate {
+  background: var(--green-apple) !important;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.form-label,
+.figtree,
+strong {
+  font-family: "Figtree";
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #330f0a6f !important;
+}
+
+input[type="file"]::file-selector-button {
+  background: var(--green-apple);
+  border: 2px solid var(--fir-tree);
+  border-radius: 5px 0px 0px 5px;
+  color: var(--fir-tree);
+  font-family: 'Figtree';
+  transition: 0.2s ease-in-out;
+}
+
+.modal-header {
+  border-bottom: var(--green-apple) 2px solid;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2863, 89, 82, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  transition: 0.2s ease-in-out !important;
+}
+
+.navbar-toggler:hover>.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28244, 253, 175, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.home-image {
+  margin-right: -2rem;
+  margin-left: -2rem;
+  border-radius: 5px;
+  border: 5px solid var(--green-apple);
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  height: 75vh;
+  background-size: cover, cover;
+  background-image: url("blackgradient.jpg"), url("homeimage.jpg");
+  background-blend-mode: multiply;
+}
+
+
+.list-group-item {
+  margin-top: 1rem;
+  background: var(--fir-tree);
+  border-bottom: #394F49;
+  background: none;
+}
+
+.list-group-item>p {
+  font-family: "Hedvig Letters Serif";
+}
+
+.alternate {
+  color: var(--fir-tree) !important;
+  padding: 1rem;
+}
+
+.alternate h3 {
+  color: var(--fir-tree) !important;
+}
+
+body {
+  background-image: url(leafs.jpg) !important;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.home-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.resources table {
+  border-radius: 10px !important;
+  border: 5px solid var(--green-apple);
+  border-collapse: separate !important;
+  background: #f4fdaf28;
+  box-shadow: inset var(--fir-tree) 20px 20px 50px 5px;
+}
+
+tr,
+th,
+td {
+  background: none !important;
+  border: 2px solid var(--green-apple);
+  color: #F4FDAF !important;
+}
+
+th {
+  font-family: "Figtree";
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.search input {
+  margin-left: 2rem;
+  width: 50%;
+  height: 2.5rem;
+  padding: 1rem;
+}
+
+.search p {
+  margin-top: 1rem;
+}
