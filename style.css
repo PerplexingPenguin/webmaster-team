@@ -252,6 +252,7 @@ input[type="file"]::file-selector-button {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  background-position: center;
 }
 
 
