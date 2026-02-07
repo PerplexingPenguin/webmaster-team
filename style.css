@@ -48,7 +48,7 @@ h2 {
   color: var(--fir-tree) !important;
   background: var(--green-apple);
   border-radius: 6px;
-  rotate: 1deg;
+  transform: scale(107%);
 }
 
 .active {
@@ -73,7 +73,7 @@ h2 {
   background-color: var(--green-apple) !important;
   font-family: "Figtree" !important;
   font-size: 100%;
-  rotate: 1deg;
+  transform: scale(107%);
   border-radius: 5px;
 }
 
@@ -100,7 +100,7 @@ button {
 button:hover {
   background-color: var(--fir-tree) !important;
   color: var(--green-apple) !important;
-  rotate: 3deg;
+  transform: scale(107%);
 }
 
 h3,
@@ -127,7 +127,7 @@ h5 {
 }
 
 .event-card:hover {
-  rotate: 1deg;
+  transform: scale(107%);
 }
 
 .event-card p,
