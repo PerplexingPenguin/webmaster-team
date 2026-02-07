@@ -247,7 +247,7 @@ input[type="file"]::file-selector-button {
   border-radius: 15px;
   height: 75vh;
   background-size: cover, cover;
-  background-image: url("blackgradient.jpg"), url("hands.jpg");
+  background-image: url("blackgradient.jpg"), url("hands.png");
   background-blend-mode: multiply;
   display: flex;
   justify-content: flex-start;
